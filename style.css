@@ -1,0 +1,67 @@
+* {
+ box-sizing: border-box;
+}
+body {
+ background: url(./bg\ image.jpg);
+ background-size: cover;
+ margin: 0;
+ padding: 0;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.form-login {
+ min-height: 100vh;
+ width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.heading-section {
+text-transform: capitalize;
+text-align: center;
+color: white;
+}
+
+#name-section {
+ text-align: center;
+ text-transform: capitalize;
+ border-radius: 30px;
+ border: 1px solid white;
+ background-color: transparent;
+ width: 280px;
+ height: 40px;
+ /*margin: 20px 0;*/
+ padding: 10px;
+ font-family: inherit;
+ color: white;
+ transition: box-shadow 1s ease;
+}
+#password-section {
+ text-align: center;
+ text-transform: capitalize;
+ border-radius: 30px;
+ border: 1px solid white;
+ background-color: transparent;
+ width: 280px;
+ height: 40px;
+ /*margin: 20px 0;*/
+ padding: 10px;
+ font-family: inherit;
+ color: white;
+ transition: box-shadow 1s ease;
+}
+button {
+ text-transform: capitalize;
+ border-radius: 30px;
+ background: #ff0000;
+ color: white;
+ border: none;
+ width: 150px;
+ height: 40px;
+ font-size: 16px;
+ transition: box-shadow 1s ease;
+}
+button:hover {
+ box-shadow:  0px 0px 10px rgb(0, 0, 0);
+}
+input[type]::placeholder {
+ color: white;
+}
